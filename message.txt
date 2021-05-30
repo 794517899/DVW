@@ -1,0 +1,18 @@
+FTR LitePaper
+
+Team : We come from the traditionnal finance sector : 2 Quants with a cumulated 7 years working in research, pricing, consulting and risk management at investment banks. Additionally, we have 1 PhD in quantitative analysis and a futher 2 people working on social media. Finally, we have multiple of mods working around the clock in our discord & telegram. During our yeras of expereince in traditional finance
+we have observed that the crypto currency world has been offering floating (ie dollar funding on exchanges) and fixed rate (extracted via a classic cash and carry strategy) that are radically different from the rates we see in legacy finance, opporunity has been found.
+Lets start with some finance background :
+What is a future contract : if you buy a future 31/12/21 BTC at 65K USD (1BTC notionnal), this contracts gives you the right and the obligation to buy 1 BTC, at 65K USD, on the 31/12. No matter what the price of BTC is (100K or 1KUSD), you will always have the right and obligation to buy your BTC at 65K USD. Future contracts do not imply that there is a leverage. Future contract do not have a funding cost, no funding rate, no intermediary USD flow between the purchase of the contract and its delivery at maturity.
+Discussing rates and Futures : 
+1)	Floating Rate
+Lets say we have a 0.01% funding rate on bybit : This rate is applyied every 8H. After actualization, the Yearly rate applied is 130% (=1.0001^(8*3*30*12) -1 in google). 
+This means that anyone who is longing on leverage>1 is therefore borrowing USD (synthetic) to bybit at a 130% annualized rate. 
+These 0.01%/8h growing to 130%/year come from the fact that the actualization process is performed every 8H, ie 8640 times in a year. 
+A lot of people are longing on margin, meaning alot of market participants are borrowing US dollars in the market, and therefore, the USD borrowing rate increases. Rates can increase upwards to 130%, everyone believes USD is cheap to borrow as the 8h rate looks low. 
+Most of the exchanges are practicing « high frequency » capitalization rate (every 8H)
+
+Fixed rate : The future markets reflect these high USD borrow rates (no arbitrage opportunity) and this is why we can find a spot price for BTC at 56500 with a future price at 64300 for 31/12/21 ie 13% between today, 04/05 and the end of the year. This leads to a  25% annualized rate. 
+When you extract the yield offered by these differences between spot price and future price, you are in fact offering USD to the market, holding a 0 delta positiong (AT MATURITY) against BTC, and gaining everyday a share of the 13% spread you locked when entering the position.
+
+We started to take advantage of these rates for our own money and thought it would be much more appealing for people (especially crypto people) to buy a product that provides a yield, versus building a position and getting to know the definition of a Future contract
